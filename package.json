@@ -1,0 +1,26 @@
+{
+  "name": "cypress-studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress/support/index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgosantos89/cypress-studies.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Diego Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgosantos89/cypress-studies/issues"
+  },
+  "homepage": "https://github.com/dgosantos89/cypress-studies#readme",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  }
+}
