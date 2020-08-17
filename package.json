@@ -4,7 +4,7 @@
   "description": "",
   "main": "cypress/support/index.js",
   "scripts": {
-    "cypress:open": "cypress open",
+    "cy:open": "cypress open",
     "test": "cypress run"
   },
   "repository": {
