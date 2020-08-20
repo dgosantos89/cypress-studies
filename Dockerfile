@@ -18,7 +18,10 @@ COPY cypress.json .
 ENV CI=1
 RUN npm ci
 
-# run e2e Cypress tests
+#Always running E2E tests
+ARG BUST=1
+# if you run "docker build . --build-arg BUST=$(date +%s)"
+# it will bust this cache and it will rerun all commands from here
 RUN npm test
 
 # show the size of the current folder so we know
